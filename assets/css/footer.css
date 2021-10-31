@@ -17,6 +17,10 @@ footer{
     align-items: center;
     font-size: calc(1rem + 1vw);
 } 
+.contact li a{
+    color: unset;
+    text-decoration: none;
+} 
 @media (min-width: 600px){
  
     footer{

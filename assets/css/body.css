@@ -4,3 +4,6 @@ body{
 .polar{
     font-family: 'Alfa Slab One', cursive;
 }
+a{
+    text-decoration: none;
+}
