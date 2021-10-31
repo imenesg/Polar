@@ -18,8 +18,8 @@ footer{
     font-size: calc(1rem + 1vw);
 } 
 .contact li a{
-    color: var(--color-white);
-    text-decoration: none;
+    color: var(--color-white) !important;
+    text-decoration: none !important;
 } 
 @media (min-width: 600px){
  

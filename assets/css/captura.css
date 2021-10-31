@@ -12,8 +12,8 @@
 }
 
 .captura a{
-  text-decoration: none;
-  color: var(--color-white);
+  text-decoration: none !important;
+  color: var(--color-white) !important; 
 }
 .captura .botao{
     background-color: var(--color-3);
