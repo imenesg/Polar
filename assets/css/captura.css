@@ -1,0 +1,23 @@
+.captura{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.captura h2{
+    
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+
+.captura .botao{
+    background-color: var(--color-3);
+    color: var(--color-white);
+    font-size: 1rem;
+    width: 70vw;
+    padding: 1rem 2rem;
+    margin-top: 1.5rem;
+    border-radius: 1rem;
+}

@@ -1,0 +1,27 @@
+.top_foto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image:url(../img/fotodundo1080baixodesfocado.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 50vh;
+
+}
+.top_foto-texts{
+    text-align: center;
+    color: var(--color-white);
+    text-shadow: 0px 5px 0px var(--color-3);
+}
+.top_foto-texts h1{
+    font-size: 3rem ;
+}
+.top_foto-texts h2{
+    font-size: 2.5rem ;
+}
+@media (min-width: 600px){
+    .top_foto{
+        background-position: center;
+    }
+}

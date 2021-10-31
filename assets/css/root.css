@@ -1,0 +1,13 @@
+:root{
+    --color-1:#A0BBD9;
+    --color-2:#97A6BB ;
+    --color-3:#3E5B87;
+    --color-white:#fff;
+    --color-black:#000;
+}
+.container{
+    padding: 1rem;
+}
+*{
+    box-sizing: border-box;
+}

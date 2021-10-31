@@ -1,0 +1,26 @@
+footer{
+    background-color: var(--color-3);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+.contact{
+    color: var(--color-white);
+}
+.contact h3{
+    font-size: 2rem;
+}
+.contact li{
+    margin: .5rem;
+    display: flex;
+    align-items: center;
+    font-size: calc(1rem + 1vw);
+} 
+@media (min-width: 600px){
+ 
+    footer{
+        
+        flex-direction: row;
+    }
+}

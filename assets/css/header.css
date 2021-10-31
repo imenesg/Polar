@@ -1,0 +1,54 @@
+header{
+    display: flex;
+    background-color: var(--color-1);
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+   width: 4rem;
+    
+}
+.icon_menu{
+    color: var(--color-3);
+    font-size: 2rem;
+}
+
+header nav{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-color: var(--color-white);
+    text-decoration: none;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    visibility: hidden;
+
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+.header__nav-visivel{
+    display: flex;
+    visibility: visible;
+}
+header nav a{
+    background-color: var(--color-white);
+    text-decoration: none;
+    color: var(--color-3);
+    margin: 2rem;
+    font-size: 2rem;
+
+}
+header nav .icon_close{
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    color: var(--color-3);
+    font-size: 2rem;
+}
