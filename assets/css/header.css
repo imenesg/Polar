@@ -1,6 +1,6 @@
 header{
     display: flex;
-    background-color: var(--color-1);
+    background-color: var(--color-3);
     justify-content: space-between;
     align-items: center;
 }
@@ -9,7 +9,7 @@ header{
     
 }
 .icon_menu{
-    color: var(--color-3);
+    color: var(--color-white);
     font-size: 2rem;
 }
 
