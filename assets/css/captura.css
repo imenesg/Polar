@@ -15,6 +15,10 @@
   text-decoration: none !important;
   color: var(--color-white) !important; 
 }
+
+.captura a:hover{
+   transform: scale(1.1);
+}
 .captura .botao{
     background-color: var(--color-3);
     color: var(--color-white);
@@ -24,3 +28,5 @@
     margin-top: 1.5rem;
     border-radius: 1rem;
 }
+
+

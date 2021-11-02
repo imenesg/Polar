@@ -18,6 +18,8 @@
   
 }
 
+
+
 .technologie{
   background-color: var(--color-white);
   display: flex;
@@ -28,6 +30,11 @@
   max-width: 300px;
   padding: 3rem;
   margin: 1rem;
+}
+
+.technologie:hover {
+  
+  transform: scale(1.1);
 }
 .technologieimg {
   width: 100%;
