@@ -20,7 +20,7 @@ const debounce = function(func, wait, immediate) {
   function animeScroll() {
     const windowTop = window.pageYOffset + ((window.innerHeight * 3) / 4);
     target.forEach(function(element) {
-        console.log("FORECH");
+        
       if((windowTop) > element.offsetTop) {
         element.classList.add("tecAnime");
         console.log("adicionado");
@@ -29,7 +29,7 @@ const debounce = function(func, wait, immediate) {
         console.log("removido");
       }
       
-    });console.log("NADA ?");
+    });
   }
   
   animeScroll();
