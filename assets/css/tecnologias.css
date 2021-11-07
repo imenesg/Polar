@@ -30,6 +30,14 @@
   max-width: 300px;
   padding: 3rem;
   margin: 1rem;
+
+  
+
+  
+}
+.tecAnime {
+  animation-name: biger;
+  animation-duration: 0.5s;
 }
 
 .technologie:hover {
@@ -54,6 +62,12 @@
         display: flex;
         flex-direction: row;
         justify-content: center;
-        
+
       }
+}
+
+
+@keyframes biger {
+  from {transform: scale(0.1);}
+  to {transform: scale(1)}
 }
